@@ -1,0 +1,28 @@
+* {
+  /* font-family: "Poppins", sans-serif;
+   */
+  font-family: 'Jost', sans-serif;
+}
+
+
+
+.judul {
+  margin-top: 15rem;
+}
+
+.btn-light {
+  background-color: #f08373;
+  border-color: #f08373;
+  color: #ffffff;
+
+}
+
+.btn-light:hover {
+  background-color: #da624f;
+  color: #171212;
+
+}
+
+.bg-about {
+  color: #f08373;
+}
