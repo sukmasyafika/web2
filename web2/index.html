@@ -23,28 +23,13 @@
   <!-- icons -->
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-
-  <style>
-    .background-jumbotron {
-      background-image: url("assets/img/bg/bg-22.jpg");
-      width: 100%;
-      height: 100vh;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
-      text-shadow: #000 1px 1px;
-      box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
-    }
-  </style>
-
 </head>
 
 <body>
   <!-- Awal navigasi Bar -->
   <nav class="navbar navbar-expand-lg bg-light shadow  fixed-top">
     <div class="container">
-      <a class="navbar-brand " href="#">CM.Shop</a>
+      <a class="navbar-brand fw-bold fs-3" href="#">CM.Shop</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -52,13 +37,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#product">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
@@ -71,21 +59,23 @@
 
   <!-- awal Jumbotron img -->
   <section id="home" class="jumbotron jumbotron-fluid background-jumbotron">
-    <div class=" container-fluid py-5 text-center text-light">
+    <div class="container-fluid py-5 text-center text-light">
       <h1 class="judul display-3 fw-semibold">Solusi Kecantikan Anda</h1>
       <p class="fs-5">Kami menyediakan berbagai produk untuk merawat kulit Anda, <br> membantu Anda tampil
         lebih percaya
         diri dan sehat</p>
-      <button class="btn btn-light" type="button">Belanja Sekarang</button>
+      <a href="#about">
+        <button class="btn btn-danger btn-lg" type="button">Belanja Sekarang</button>
+      </a>
     </div>
   </section>
   <!-- akhir Jumbotron img -->
 
   <!-- Awal about -->
-  <section id="about" class="container container-fluid container-fluid-max ">
+  <section id="about" class="container container-fluid container-fluid-max pt-3">
     <div class="row text-center">
       <div class="col-12 p-5">
-        <h2 class="display-4 text-center mb-5">Mengapa memilih kami?</h2>
+        <h2 class="display-4 text-center mb-5 fw-semibold">Mengapa <span class="text-danger">memilih kami?</span></h2>
         <div>
           <img src="assets/img/bg/bg-3.jpg" width="400" class="rounded shadow ">
         </div>
@@ -121,11 +111,11 @@
   </section>
   <!-- Akhir about -->
 
-  <!-- Awal Pruduct -->
-  <section id="product" class="container mt-4">
+  <!-- Awal Product -->
+  <section id="product" class="container pt-5">
     <div class="row text-center">
       <div class="col-12 p-4">
-        <h2 class="display-4 text-center mb-5">Product kami</h2>
+        <h2 class="display-4 text-center mb-5 fw-semibold"><span class="text-danger ">Product</span> kami</h2>
       </div>
       <div class="col-md-3 mb-4">
         <div class="card border-danger-subtle">
@@ -135,7 +125,7 @@
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, minima!</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn button-sekunder">Lihat Detail & Harga &raquo;</a>
+            <a href="#" class="btn btn-danger">Lihat Detail & Harga &raquo;</a>
           </div>
         </div>
       </div>
@@ -148,7 +138,7 @@
             </p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn button-sekunder">Lihat Detail & Harga &raquo;</a>
+            <a href="#" class="btn btn-danger">Lihat Detail & Harga &raquo;</a>
           </div>
         </div>
       </div>
@@ -160,7 +150,7 @@
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, minima!</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn button-sekunder">Lihat Detail & Harga &raquo;</a>
+            <a href="#" class="btn btn-danger">Lihat Detail & Harga &raquo;</a>
           </div>
         </div>
       </div>
@@ -172,50 +162,72 @@
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, minima!</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn button-sekunder">Lihat Detail & Harga &raquo;</a>
+            <a href="#" class="btn btn-danger">Lihat Detail & Harga &raquo;</a>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- Akhir Pruduct -->
+  <!-- Akhir Product -->
+
+  <!-- awal Team kami -->
+  <section id="team" class="container pt-5">
+    <div class="text-center">
+      <h2 class="display-3 fw-semibold p-5">Team <span class="text-danger">Kami</span></h2>
+      <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci praesentium facere nisi veniam
+        nostrum
+        laboriosam mollitia architecto inventore temporibus quo.</p>
+      <div class="row pt-4">
+        <div class="col-6 col-md-4 text-center team">
+          <img src="assets/img/team/fani.jpg" alt="" class="rounded-circle mb-3" width="250" height="250">
+          <h4>Fani D.W Giya</h4>
+          <p>22 411 037</p>
+        </div>
+        <div class="col-6 col-md-4 text-center team">
+          <img src="assets/img/team/sukma.jpg" alt="" class="rounded-circle mb-3" width="250" height="250">
+          <h4>Sukma Syafika</h4>
+          <p>22 411 075</p>
+        </div>
+        <div class="col-6 col-md-4 text-center team">
+          <img src="assets/img/team/iren.jpg" alt="" class="rounded-circle mb-3" width="250" height="250">
+          <h4>Agustina Fasak</h4>
+          <p>22 411 005</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- awal Team kami -->
 
   <!-- Awal Contact -->
   <section id="contact">
-        <div class="col-12 p-4">
-        <h2 class="display-4 text-center mb-5">Contact Us</h2>
-      </div>
+    <div class="col-12 p-5">
+      <h2 class="display-4 text-center  fw-semibold"><span class="text-danger">Contact </span>Us </h2>
+    </div>
     <div class="form-floating mb-3 col-4 mx-auto">
-  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-  <label for="floatingInput">Email address</label>
-</div>
-
-<div class="form-floating mb-3 col-4 mx-auto">
-  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-  <label for="floatingPassword">Password</label>
-</div>
-
-<div class="form-floating mb-3 col-4 mx-auto">
-  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-  <label for="floatingTextarea2">Comments</label>
-</div>
-
-<div class="d-grid gap-2 col-4 mx-auto">
-  <button class="btn btn-danger" type="button">Submit</button>
-</div>
-</section>
+      <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+      <label for="floatingInput">Username</label>
+    </div>
+    <div class="form-floating mb-3 col-4 mx-auto">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">Email address</label>
+    </div>
+    <div class="form-floating mb-3 col-4 mx-auto">
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+        style="height: 100px"></textarea>
+      <label for="floatingTextarea2">Komentar</label>
+    </div>
+    <div class="d-grid gap-2 col-4 mx-auto">
+      <button class="btn btn-danger" type="button">Submit</button>
+    </div>
+  </section>
   <!-- Akhir Contact -->
 
   <!-- Footer -->
-  <footer></footer>
-
-
-
-
-
-
-
-
+  <footer class="bg-dark mt-5 py-3">
+    <div>
+      <p class="footer text-center text-light">Copyright &copy WEBII 2024</p>
+    </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
