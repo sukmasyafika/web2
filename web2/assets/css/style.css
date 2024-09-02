@@ -33,12 +33,48 @@
 
 }
 
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(203, 21, 21, 0.5);
+}
+
+
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-footer {
+  background-color: #f8f9fa;
+  border-top: none;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
 .team img {
   border: 5px solid #f08373;
 }
 
 .bg-about {
   color: #f08373;
+}
+
+.social-media a {
+  color: #007bff;
+  font-size: 1.5rem;
+  margin: 0 15px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-media a:hover {
+  color: #0056b3;
+  transform: scale(1.1);
 }
 
 footer p .footer {
